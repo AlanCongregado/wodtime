@@ -23,6 +23,8 @@ const shoppingCartItemsContainer = document.querySelector(
   ".shoppingCartItemsContainer"
 );
 
+const inicioSesion = document.querySelector(".btn-outline-success");
+
 function addToCart(e) {
   const button = e.target;
   const item = button.closest(".product-container");
